@@ -1,4 +1,4 @@
-<!--proper doctype declaration, title and css link-->
+<!-- doctype head with title and link to css file-->
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -6,13 +6,13 @@
     <title>Horiseon</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <!--I added a nav here-->
+  <!--body begins with the three headings-->
   <body>
     <div class="header">
-      <!--page title-->
       <h1>Hori<span class="seo">seo</span>n</h1>
       <nav>
-        <ul> <!--three headings here-->
+        <!-- nav here to indicate heading-->
+        <ul>
           <li>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
           </li>
@@ -27,15 +27,16 @@
         </ul>
       </nav>
     </div>
-    <!--more body here where the headers link to these 3 divs-->
     <div class="hero"></div>
     <div class="content">
-      <div id="search-engine-optimization" class="search-engine-optimization">
+      <!--information when you click the headings-->
+      <div 
+      id="search-engine-optimization" 
+      class="search-engine-optimization">
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
-          alt="A workspace with a laptop, magnifying glass, cup of coffee, spiral notebook and a container of markers and pencils"
-        /> <!--information explaining the company in p's-->
+          alt="A workspace with a laptop, magnifying glass, cup of coffee, spiral notebook and a container of markers and pencils"/>
         <h2>Search Engine Optimization</h2>
         <p>
           The dominance of mobile internet use means that users are searching
@@ -46,13 +47,11 @@
       </div>
       <div
         id="online-reputation-management"
-        class="online-reputation-management"
-      > <!--images relating to pictures-->
+        class="online-reputation-management">
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
-          alt="A person at a workspace holding their phone while using a laptop"
-        />
+          alt="A person at a workspace holding their phone while using a laptop"/>
         <h2>Online Reputation Management</h2>
         <p>
           The web is full of opinions, and some of these can be negative. Social
@@ -62,12 +61,12 @@
           business.
         </p>
       </div>
-      <div id="social-media-marketing" class="social-media-marketing">
+      <div id="social-media-marketing" 
+           class="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
-          alt="A meeting with seven people using tablets and laptops discussing social media"
-        />
+          alt="A meeting with seven people using tablets and laptops discussing social media"/>
         <h2>Social Media Marketing</h2>
         <p>
           Social media continues to have a sizable influence on buying habits.
@@ -77,6 +76,7 @@
         </p>
       </div>
     </div>
+    <!--pictures and info for the three benefits-->
     <div class="benefits">
       <div class="benefit-lead">
         <h3>Lead Generation</h3>
@@ -103,6 +103,7 @@
         </p>
       </div>
     </div>
+    <!--footer found at the bottom of the page-->
     <div class="footer">
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
