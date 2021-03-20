@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./develop/assets/images/digital-marketing-meeting2.jpg"
+<img src="./assets/images/digital-marketing-meeting2.jpg"
 alt="Project title">
 
 ## Table of Contents
